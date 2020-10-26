@@ -1,0 +1,70 @@
+html{
+  font-size: 10px;
+  margin: 10px;
+}
+
+body{
+font-family: 'Piazzolla', sans-serif;
+  color: black;
+  font-size: 1.5rem;
+  line-height: 1.4rem;
+  background-color: #dcdcdc;
+  max-width: 570px;
+  margin: 0 auto;
+}
+
+h1,h2{
+  font-family: 'roboto', serif;
+}
+
+h1{
+font-size: 3rem;
+margin: 2rem;
+line-height: 5rem;
+}
+
+h2{
+  font-size: 3rem;
+  line-height: 4rem;
+  margin: 2rem;
+}
+
+.page-footer{
+ background-color: black;
+ color: #ABABAB;
+}
+/* I need to come back to these links for colour accessability */
+a:link{
+  color:#dcdcdc;
+}
+a:visited{
+color: #787878 ;
+}
+a:hover{
+color: #ff4500
+}
+
+.figcap{
+  font-family: 'roboto';
+}
+
+figure{
+  padding: 2rem;
+  margin: 2rem;
+
+}
+.figcap{
+  font-weight: bold;
+}
+
+.menu li {
+  list-style: none;
+  display: inline;
+  margin-right: 20px;
+}
+
+.container {
+  column-count: 3;
+  column-gap: 2rem;
+  column-rule: 3px solid black;
+}
